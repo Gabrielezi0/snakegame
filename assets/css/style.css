@@ -1,0 +1,27 @@
+.reddot
+{
+    -webkit-animation: reddotblink 2s infinite;
+ 
+}
+
+@-webkit-keyframes reddotblink{
+    0%{ background-color: transparent;}
+    50% { background-color: red; }
+}
+
+.head
+{
+    background-color: yellow;
+    /* -webkit-animation: headblink 500ms infinite; */
+ 
+}
+.bodyly
+{
+    background-color: aliceblue;
+
+}
+/* @-webkit-keyframes headblink{
+    0% { background-color: aliceblue; }
+    50%{ background-color: transparent;}
+} */
+
